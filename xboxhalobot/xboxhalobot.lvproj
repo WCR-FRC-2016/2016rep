@@ -32,7 +32,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
+		<Property Name="alias.value" Type="Str">roborio-5492-frc.local</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -127,7 +127,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Arcadedrive.vi" Type="VI" URL="../../../../../LabVIEW Data/drive/Arcadedrive.vi"/>
 		<Item Name="CAN Talon Position Control Pot.vi" Type="VI" URL="../CAN Talon Position Control Pot.vi"/>
-		<Item Name="Joystickdrivemotor.vi" Type="VI" URL="../../../../../LabVIEW Data/drive/Joystickdrivemotor.vi"/>
+		<Item Name="Joystickdrivemotor.vi" Type="VI" URL="../Joystickdrivemotor.vi"/>
 		<Item Name="Motorgo.vi" Type="VI" URL="../Motorgo.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Talon Arm Pot Init.vi" Type="VI" URL="../Talon Arm Pot Init.vi"/>
